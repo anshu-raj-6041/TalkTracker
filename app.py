@@ -3,7 +3,7 @@ import preprocessor, helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.sidebar.title("Whatsapp Chat Analyser")
+st.sidebar.title("TalkTracker")
 
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
@@ -14,7 +14,7 @@ if uploaded_file is not None:
     
     # st.dataframe(df)
 
-    # fetch unique users
+  
     user_list = df['user'].unique().tolist()
     user_list.remove('group_notification')
     user_list.sort()

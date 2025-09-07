@@ -1,0 +1,8 @@
+streamlit
+matplotlib
+seaborn
+preprocessor
+helper
+pandas
+emoji
+re

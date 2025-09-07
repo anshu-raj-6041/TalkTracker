@@ -17,7 +17,7 @@ def preprocess(data):
     messages = []
     for message in df[message_column]:
         entry = re.split(r'([\w\W]+?):\s', message)
-        if entry[1:]:  # user name
+        if entry[1:]:
             users.append(entry[1])
             messages.append(" ".join(entry[2:]))
         else:
