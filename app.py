@@ -3,7 +3,7 @@ import preprocessor, helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.sidebar.title("TalkTracker")
+st.sidebar.title("Kaala Chitta")
 
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
